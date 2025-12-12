@@ -1,3 +1,1 @@
-// start log
-console.log
 
