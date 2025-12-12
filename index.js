@@ -1,0 +1,3 @@
+// start log
+console.log
+
