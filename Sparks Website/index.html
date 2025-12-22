@@ -3,166 +3,8 @@
         <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>Sparks Development</title>
-
 <html lang="en">
-
-    <style>
-
-body {
-  background-color: grey;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-
-.home-button { 
-    background-color:black;
-    font-family: arial;
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
-    border-color: royalblue;
-    border-width: 4px;
-    border-radius: 55px;
-    height: 100px;
-    width: 160px;
-    cursor: pointer;
-    margin-right: 40px;
-    transition: background-color 0.4s;
-
-}
-
-.home-button:hover { 
-    background-color: white;
-    color: black;
-    box-shadow: 1px 1px 9px
-}
-
-.home-button2 { 
-    background-color: black;
-    font-family: arial;
-    font-size: 37px;
-    font-weight: bold;
-    color: white;
-    border-color: royalblue;
-    border-width: 4px;
-    border-radius: 55px;
-    height: 100px;
-    width: 160px;
-    cursor: pointer;
-    margin-right: 40px;
-     transition: background-color 0.4s;
-    
-}
-
-.home-button2:hover { 
-background-color: white;
-    color: black;
-    box-shadow: 1px 1px 9px
-}
-
-.home-button3 { 
-    background-color: black;
-    font-family: arial;
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    border-color: royalblue;
-    border-width: 4px;
-    border-radius: 55px;
-    height: 100px;
-    width: 160px;
-    cursor: pointer;
-    margin-right: 40px;
-     transition: background-color 0.4s;
-}
-.home-button3:hover { 
-    background-color: white;
-    color: black;
-    box-shadow: 1px 1px 9px
-}
-.socials {
-font-family: sans-serif;
-text-align: center;
-margin-top: 300px;
-font-size: 35px;
-font-weight: bold;
-background-color: black;
-color: white;
-border-radius: 20px;
-padding-top: 20px;
-padding-bottom: 20px;
-}
-
-.logo-img {
-width: 100px;
-height: 100px;
-border-radius: 20px;
-margin-top: 0px;
-}
-
-.sparks-text {
-font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-text-align: center;
-margin-top: 30px;
-color: white;
-font-size: 30px;
-font-weight: bold;
-padding-top: 50px;
-padding-bottom: 50px;
-background-color: black;
-border-radius: 20px;
-
-}
-
-.future {
-    color:rgba(152, 214, 255, 0.836)
-}
-
-.search {
-    margin-top: 5px;
-    margin-right: 50px;
-    font-family: arial;
-    font-size: 40px
-}
-
-.search-bar {
-    vertical-align: top;
-    width: 373px;
-    display: inline-block;
-}
-
-.sparks-logo {
-    width: 150px;
-    display: inline-block;
-}
-
-.sparks-title {
-    vertical-align: top;
-    width: 700px;
-    height: 300px;
-    display: block;
-}
-.buttons {
-    margin-bottom: 0px;
-    height: 100px;
-    display: block;
-}
-
-.information { 
-    vertical-align: bottom;
-    display: block;
-}
-
-.social-info {
-    height: 100px;
-    width: 500px
-    display: block;
-}
-
-
-    </style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -175,15 +17,30 @@ border-radius: 20px;
     <div class="sparks-title">
 <p class="sparks-text">The <u><span class="future">future</span></u> of development is here.</p>
 </div>
-<div class="buttons">
+<div style=
+"display: grid;
+grid-template-columns: 200px 200px 200px 200px;">
+    <div>
     <button class ="home-button">Team</button>
+</div>
+    <div>
     <button class ="home-button">Bots</button>
+</div>
+    <div>
     <button class ="home-button2">Games</button>
-    <button class ="home-button3">Partners</button>
+</div>
+    <div>
+    <button id="partnerSection" class ="home-button3">Partners</button>
+</div>
 </div>
     <div class="social-info">
     <p class="socials">Socials</p>
-    <a href="https://discord.gg/JV7kavuZvj">Our Discord Server</a>
+    <div style="display: grid;
+    grid-template-columns: 200px 200px 200px;">
+    <a class="roblox" href="https://www.roblox.com/share/g/645155187">Roblox Group</a>
+    <a class="discord" href="https://discord.gg/JV7kavuZvj">Discord Server</a>
+    <a class="github" href="https://github.com/Sparks-Development/Sparks-Development">GitHub</a>
+    </div>
     </div>
     </body>
 </body>
